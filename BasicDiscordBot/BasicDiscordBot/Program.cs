@@ -22,8 +22,10 @@ namespace BasicDiscordBot
 
             discord.MessageCreated += async e =>
             {
-                if (e.Message.Content.ToLower().StartsWith("ping"))
+                if (string.Equals(e.Message.Content, "ping", StringComparison.OrdinalIgnoreCase))
                     await e.Message.RespondAsync("pong!");
+                if (string.Equals(e.Message.Content, "hello", StringComparison.OrdinalIgnoreCase))
+                    await e.Message.RespondAsync("Hi "+e.Message.Author.Username+"!");
             };
             await discord.ConnectAsync();
             await Task.Delay(-1);

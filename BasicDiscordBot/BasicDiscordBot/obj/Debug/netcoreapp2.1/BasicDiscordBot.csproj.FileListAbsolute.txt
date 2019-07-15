@@ -9,3 +9,14 @@ C:\Users\Calvin Huynh\Documents\github\.NET-Core-BasicDiscordBot\BasicDiscordBot
 C:\Users\Calvin Huynh\Documents\github\.NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.pdb
 C:\Users\Calvin Huynh\Documents\github\.NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.dll
 C:\Users\Calvin Huynh\Documents\github\.NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.pdb
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.deps.json
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.runtimeconfig.json
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.runtimeconfig.dev.json
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.dll
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\bin\Debug\netcoreapp2.1\BasicDiscordBot.pdb
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.csprojAssemblyReference.cache
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.csproj.CoreCompileInputs.cache
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.AssemblyInfoInputs.cache
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.AssemblyInfo.cs
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.dll
+C:\Users\Calvin Huynh\Documents\github\NET-Core-BasicDiscordBot\BasicDiscordBot\BasicDiscordBot\obj\Debug\netcoreapp2.1\BasicDiscordBot.pdb

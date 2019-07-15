@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {}
+    "C:\\Users\\Calvin Huynh\\Documents\\github\\NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {
+    "C:\\Users\\Calvin Huynh\\Documents\\github\\NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
+        "projectUniqueName": "C:\\Users\\Calvin Huynh\\Documents\\github\\NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
         "projectName": "BasicDiscordBot",
-        "projectPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
+        "projectPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
         "packagesPath": "C:\\Users\\Calvin Huynh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\obj\\",
+        "outputPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
