@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
+        "projectName": "BasicDiscordBot",
+        "projectPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot.csproj",
+        "packagesPath": "C:\\Users\\Calvin Huynh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Calvin Huynh\\Documents\\github\\.NET-Core-BasicDiscordBot\\BasicDiscordBot\\BasicDiscordBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Calvin Huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
