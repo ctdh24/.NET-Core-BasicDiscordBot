@@ -1649,6 +1649,18 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Wolfram.Alpha/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/net45/Wolfram.Alpha.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Wolfram.Alpha.dll": {}
+        }
       }
     }
   },
@@ -5825,12 +5837,25 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Wolfram.Alpha/1.0.7": {
+      "sha512": "Zg5OU9Wg1D5G37yn2cRpPhW30dcllQpsKQwSVpUWAvg/3uaz8ttyTP2+YotGTfqzEaIr3fIpXatV9t5CXBrgqg==",
+      "type": "package",
+      "path": "wolfram.alpha/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Wolfram.Alpha.dll",
+        "wolfram.alpha.1.0.7.nupkg.sha512",
+        "wolfram.alpha.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "DSharpPlus >= 3.2.3",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Wolfram.Alpha >= 1.0.7"
     ]
   },
   "packageFolders": {
@@ -5885,6 +5910,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Wolfram.Alpha": {
+            "target": "Package",
+            "version": "[1.0.7, )"
           }
         },
         "imports": [
@@ -5894,5 +5923,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Wolfram.Alpha 1.0.7' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Wolfram.Alpha",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

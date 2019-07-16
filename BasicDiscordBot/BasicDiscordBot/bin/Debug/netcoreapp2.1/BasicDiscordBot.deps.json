@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "4b5e982d57cc2b62d931e6f64d26e26923f7b0c3"
+    "signature": "046fd5dc75363b45b58123df6c670542d3f3a954"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "BasicDiscordBot/1.0.0": {
         "dependencies": {
-          "DSharpPlus": "3.2.3"
+          "DSharpPlus": "3.2.3",
+          "Wolfram.Alpha": "1.0.7"
         },
         "runtime": {
           "BasicDiscordBot.dll": {}
@@ -970,6 +971,17 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "Wolfram.Alpha/1.0.7": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "runtime": {
+          "lib/net45/Wolfram.Alpha.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
       }
     }
   },
@@ -1566,6 +1578,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Wolfram.Alpha/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zg5OU9Wg1D5G37yn2cRpPhW30dcllQpsKQwSVpUWAvg/3uaz8ttyTP2+YotGTfqzEaIr3fIpXatV9t5CXBrgqg==",
+      "path": "wolfram.alpha/1.0.7",
+      "hashPath": "wolfram.alpha.1.0.7.nupkg.sha512"
     }
   }
 }
