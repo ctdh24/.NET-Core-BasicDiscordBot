@@ -47,6 +47,14 @@
               "target": "Package",
               "version": "[3.2.3, )"
             },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",
