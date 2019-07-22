@@ -60,9 +60,13 @@
               "version": "[2.1.0, )",
               "autoReferenced": true
             },
-            "Wolfram.Alpha": {
+            "Reddit": {
               "target": "Package",
-              "version": "[1.0.7, )"
+              "version": "[1.2.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
             }
           },
           "imports": [

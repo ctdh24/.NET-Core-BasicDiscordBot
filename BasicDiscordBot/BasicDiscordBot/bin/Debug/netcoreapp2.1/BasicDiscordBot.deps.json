@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "e1f2a51e06ecfb0a575d2368205cc190be13dc34"
+    "signature": "49d1ac66a2b16fb4f532bfe74b095d52073bbe19"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
           "DSharpPlus": "3.2.3",
           "DSharpPlus.CommandsNext": "3.2.3",
           "Discord.Net": "2.1.1",
-          "Wolfram.Alpha": "1.0.7"
+          "Reddit": "1.2.0",
+          "RestSharp": "106.6.10"
         },
         "runtime": {
           "BasicDiscordBot.dll": {}
@@ -112,6 +113,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Extensions.DependencyInjection/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
@@ -141,6 +143,27 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "Reddit/1.2.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "106.6.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reddit.NET.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "RestSharp/106.6.10": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.6.10.0",
+            "fileVersion": "106.6.10.0"
           }
         }
       },
@@ -875,17 +898,6 @@
         "dependencies": {
           "System.Runtime": "4.3.0"
         }
-      },
-      "Wolfram.Alpha/1.0.7": {
-        "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "runtime": {
-          "lib/net45/Wolfram.Alpha.dll": {
-            "assemblyVersion": "1.0.7.0",
-            "fileVersion": "1.0.7.0"
-          }
-        }
       }
     }
   },
@@ -951,6 +963,13 @@
       "path": "dsharpplus.commandsnext/3.2.3",
       "hashPath": "dsharpplus.commandsnext.3.2.3.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -978,6 +997,20 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Reddit/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZiozAUAUneZvDScSnpN1vD+jeBlBLm8GzgD6nWr71GZbB+E5ZUp/ztc3QCP/H6VCEPJdECppci5gxFBGfo7FBw==",
+      "path": "reddit/1.2.0",
+      "hashPath": "reddit.1.2.0.nupkg.sha512"
+    },
+    "RestSharp/106.6.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x1FM32hjnVOIn+DKtCs2Y4Q2DCUE5KW08NUXUd4GjgKjE+5PE0F6e9XfUg7nILo05M0TA/HRkRD/SeQ8+duOUA==",
+      "path": "restsharp/106.6.10",
+      "hashPath": "restsharp.106.6.10.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -1426,13 +1459,6 @@
       "sha512": "sha512-Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
-    },
-    "Wolfram.Alpha/1.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Zg5OU9Wg1D5G37yn2cRpPhW30dcllQpsKQwSVpUWAvg/3uaz8ttyTP2+YotGTfqzEaIr3fIpXatV9t5CXBrgqg==",
-      "path": "wolfram.alpha/1.0.7",
-      "hashPath": "wolfram.alpha.1.0.7.nupkg.sha512"
     }
   }
 }
